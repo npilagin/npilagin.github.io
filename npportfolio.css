@@ -1,0 +1,163 @@
+body {
+    margin-top: 3px; 
+    font-family: georgia, serif, "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-variant: small-caps;
+}
+
+.title1 {
+    margin-top: 200px; 
+    font-size: 60px;
+	color: black;
+    text-shadow: 3px 3px 1px white, 3px 3px 1px white;	
+}
+
+i{
+	text-shadow: 1px 1px 5px blue;
+}
+
+.hr1{
+	width: 500px;
+}
+
+.section1{
+	background-image: url("https://78.media.tumblr.com/36b428d7957b06d612e092d431582154/tumblr_oxx096UzTv1wed1zeo6_1280.jpg");
+	/*background-size: cover;
+	background-repeat: no-repeat;*/
+	}
+
+.list-inline {
+    margin-top: 200px;
+    font-size: 20px;
+    color: blue;
+  }
+  
+.social-list-col {
+    height: 600px;
+}
+
+.sociallist{
+    padding-bottom: 15px;
+    	
+}
+
+.subheading{
+	font-size: 30px;
+	color: black;
+	text-shadow: 1px 1px 1px white, 1px 1px 1px white;
+}
+
+.divider1{
+	color: blue;
+}
+
+.section2{
+	background-color: #1a1a1a;
+	padding: 50px;
+	height: 700px;
+}
+
+.project{
+	display: block;
+	margin: auto;
+	height: 300px;
+	width: 400px;
+	box-shadow: 12px 12px 10px black;
+}
+
+.projectsubtext{
+	color: white;
+	font-size: 22px;	
+}
+
+.projectsubsubtext{
+	color: white;
+	font-size: 18px;
+}
+
+.h3-1{
+	font-size: 24px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.section3{
+	padding: 50px;
+	background-image: url("https://static.pexels.com/photos/34676/pexels-photo.jpg");
+}
+
+.bio{
+	text-align: center;
+	color: white;
+	font-size: 46px;
+	text-shadow: 2px 2px 2px black;
+	padding: 0 !important;
+}
+
+.biosubhead{
+	text-align: center;
+	color: white;
+	font-size: 28px;
+	text-shadow: 2px 2px 2px black;
+	padding: 0 !important;
+}
+
+.biolist{
+	text-align: center;
+	padding: 0 !important;
+}
+
+.biolist2{
+	display: block;
+	margin: auto;
+	padding-bottom: 12px;
+	padding-left: 0 !important;
+	color: white;
+	font-size: 24px;
+	text-shadow: 1px 2px 1px black;
+}
+
+.section3left{
+	
+}
+
+.leftlogo{
+	display: block;
+	height: 150px;
+	width: 150px;
+	margin: auto;
+	box-shadow: 25px 25px 25px black;
+	padding: 1px;
+}
+
+.rightlogo{
+	display: block;
+	height: 150px;
+	width: 150px;
+	margin: auto;
+	box-shadow: 25px 25px 25px black;
+	padding: 1px;
+}
+
+.section4{
+	background-color: gray;
+	padding-bottom: 50px;
+}
+
+.contact1{
+    color: white;
+	text-shadow: 3px 3px 3px black;
+    text-align: center;	
+}
+
+.contact2{
+	color: white;
+	text-shadow: 3px 3px 3px black;
+	text-align: center;
+	font-size: 20px;
+}
+
+.hr2{
+	width: 400px;
+}
+
+
