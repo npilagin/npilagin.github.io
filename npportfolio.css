@@ -4,7 +4,6 @@ body {
 	font-variant: small-caps;
 }
 
-
 .title1 {
     margin-top: 200px; 
     font-size: 60px;
@@ -13,7 +12,7 @@ body {
 }
 
 i{
-	text-shadow: 1px 1px 5px #0000cc;
+	text-shadow: 1px 1px 5px blue;
 }
 
 .hr1{
@@ -128,10 +127,9 @@ i{
 	height: 150px;
 	width: 150px;
 	margin: auto;
-	padding: 10px;
-	/*Filter doesn't work on GitHub*/
-	/*-webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(15px 15px 3px #222);*/ 
+	padding: 1px;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(10px 10px 2px #222);
 }
 
 .rightlogo{
@@ -139,10 +137,9 @@ i{
 	height: 150px;
 	width: 150px;
 	margin: auto;
-	padding: 10px;
-	/*Filter doesn't work on GitHub*/
-	/*-webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(15px 15px 3px #222); */
+	padding: 1px;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(10px 10px 2px #222);
 }
 
 .section4{
@@ -166,5 +163,4 @@ i{
 .hr2{
 	width: 400px;
 }
-
 
