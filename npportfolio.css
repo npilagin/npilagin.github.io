@@ -33,7 +33,7 @@ i{
   }
   
 .social-list-col {
-    height: 600px;
+    height: auto;
 }
 
 .sociallist{
@@ -54,7 +54,7 @@ i{
 .section2{
 	background-color: #1a1a1a;
 	padding: 50px;
-	height: 700px;
+	height: auto;
 }
 
 .project{
