@@ -12,7 +12,7 @@ body {
 }
 
 i{
-	text-shadow: 1px 1px 5px blue;
+	/*text-shadow: 1px 1px 5px blue;*/
 }
 
 .hr1{
@@ -26,7 +26,21 @@ i{
 	background-repeat: no-repeat;*/
 	}
 
-.list-inline {
+.btn-lg{
+	/*text-shadow: 1px 1px 3px blue;*/
+}
+	
+.btn-lg:hover{
+	color: #fff;
+    /*border: 2px outset rgba(0, 0, 0, 0.9);*/
+    background: blue;
+    transform:scale(1.5);
+    transition: 0.8s;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}	
+	
+.intro-social-buttons {
     margin-top: 200px;
     font-size: 20px;
     color: blue;
@@ -80,6 +94,17 @@ i{
 	font-size: 24px;
 	text-align: center;
 	color: #ffffff;
+}
+
+.project:hover {
+	color: #fff;
+    border: 2px outset gray;
+    background: rgba(0,0,0, 0.3);
+    transform:scale(1.4);
+    transition: 0.5s;
+    text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+    box-shadow: 13px 13px 3px rgba(0,0,0,0.9);
+    letter-spacing: 2px;
 }
 
 .section3{
@@ -145,7 +170,7 @@ i{
 
 .section4{
 	background-color: gray;
-	padding-bottom: 50px;
+	padding-bottom: 10px;
 }
 
 .contact1{
@@ -164,4 +189,35 @@ i{
 .hr2{
 	width: 250px;
 }
+
+.section5{
+	background-color: gray;
+	text-align: center;
+	padding: 5px;
+}
+ 
+.sociallist2{
+	margin-top: 2px;
+	display: inline;
+	padding: 2px;
+	margin: 5px;
+}
+
+.btn-md{
+	text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+}
+
+.btn-md:hover{
+    color: #fff;
+    /*border: 2px outset rgba(0, 0, 0, 0.9);*/
+    background: rgba(0,0,0, 0.9);
+    transform:scale(1.1);
+    transition: 0.2s;
+    text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+	
+}
+
+
+
 
