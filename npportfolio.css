@@ -20,7 +20,7 @@ i{
 }
 
 .section1{
-	background-image: radial-gradient(rgba(100,181,246 ,1), rgba(0,0,0,0.8)),
+	background-image: linear-gradient(rgba(100,181,246 ,1), rgba(0,0,0,0.8)),
 	  url("https://78.media.tumblr.com/36b428d7957b06d612e092d431582154/tumblr_oxx096UzTv1wed1zeo6_1280.jpg");
 	background-attachment: fixed;
 	/*background-size: cover;
