@@ -20,7 +20,8 @@ i{
 }
 
 .section1{
-	background-image: url("https://78.media.tumblr.com/36b428d7957b06d612e092d431582154/tumblr_oxx096UzTv1wed1zeo6_1280.jpg");
+	background-image: radial-gradient(rgba(100,181,246 ,1), rgba(0,0,0,0.8)),
+	  url("https://78.media.tumblr.com/36b428d7957b06d612e092d431582154/tumblr_oxx096UzTv1wed1zeo6_1280.jpg");
 	background-attachment: fixed;
 	/*background-size: cover;
 	background-repeat: no-repeat;*/
@@ -32,7 +33,7 @@ i{
 	
 .btn-lg:hover{
 	color: #fff;
-    /*border: 2px outset rgba(0, 0, 0, 0.9);*/
+    border: 2px blue;
     background: blue;
     transform:scale(1.5);
     transition: 0.8s;
@@ -209,7 +210,7 @@ i{
 
 .btn-md:hover{
     color: #fff;
-    /*border: 2px outset rgba(0, 0, 0, 0.9);*/
+    border: 2px black;
     background: rgba(0,0,0, 0.9);
     transform:scale(1.1);
     transition: 0.2s;
@@ -217,7 +218,6 @@ i{
     box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
 	
 }
-
 
 
 
