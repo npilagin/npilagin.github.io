@@ -32,7 +32,7 @@ i{
 }
 	
 .btn-lg:hover{
-	color: #fff;
+    color: #fff;
     border: 2px blue;
     background: blue;
     transform:scale(1.5);
