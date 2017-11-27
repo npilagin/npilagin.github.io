@@ -1,14 +1,22 @@
 body {
     margin-top: 3px; 
     font-family: georgia, serif, "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-variant: small-caps;
+    font-variant: small-caps;
+}
+
+.nav li a:hover{ 
+  color: red;
+  transform: scale(1.4);
+  transition: 1.0s;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
 }
 
 .title1 {
-    margin-top: 200px; 
-    font-size: 60px;
-	color: black;
-    text-shadow: 3px 3px 1px white, 3px 3px 1px white;	
+  margin-top: 200px; 
+  font-size: 60px;
+  color: black;
+  text-shadow: 3px 3px 1px white, 3px 3px 1px white;	
 }
 
 i{
