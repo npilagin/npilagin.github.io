@@ -14,12 +14,29 @@ body {
   font-size: 24px;
 }
 
-.nav li a:hover{ 
+}
+
+/* Need to adjust 'transform' & spacing for mobile */
+@media screen and (min-width: 480px){
+ .nav li a:hover{ 
   transform: scale(1.4);
   transition: 0.5s;
   letter-spacing: 4px;
   text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+  color: red;
+ }
 }
+
+/*
+@media screen and (max-width: 481px){
+  .nav li a:hover{
+  transform: scale(1.0);
+  transition: 0.5s;
+  letter-spacing: 0px;
+  color: red;
+  }
+}
+*/
 
 .title1 {
     margin-top: 200px; 
