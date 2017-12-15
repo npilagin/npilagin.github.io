@@ -1,3 +1,4 @@
+
 body {
   margin-top: 3px; 
   font-family: georgia, serif, "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -14,8 +15,6 @@ body {
   font-size: 24px;
 }
 
-}
-
 /* Need to adjust 'transform' & spacing for mobile */
 @media screen and (min-width: 480px){
  .nav li a:hover{ 
@@ -23,7 +22,7 @@ body {
   transition: 0.5s;
   letter-spacing: 4px;
   text-shadow: 1px 1px 1px rgba(0,0,0, 20);
-  color: red;
+  font-color: red;
  }
 }
 
@@ -137,7 +136,7 @@ i{
 	color: #fff;
     border: 2px outset gray;
     background: rgba(0,0,0, 0.3);
-    transform:scale(1.4);
+    transform: scale(1.4);
     transition: 0.5s;
     text-shadow: 1px 1px 1px rgba(0,0,0, 20);
     box-shadow: 13px 13px 3px rgba(0,0,0,0.9);
